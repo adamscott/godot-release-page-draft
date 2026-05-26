@@ -6,12 +6,12 @@ export class ReleaseBanner{
         this.container = document.querySelector(container_id);
         this.canvas = document.querySelector(canvas_id);
         this.scene = new THREE.Scene();
-        this.scene.background = new THREE.Color( 0x151515 );
+        // this.scene.background = new THREE.Color( 0x151515 );
 
         this.renderer = new THREE.WebGLRenderer({antialias: true, canvas: this.canvas});
         this.renderer.outputColorSpace = THREE.LinearSRGBColorSpace;
         this.renderer.toneMapping = THREE.ReinhardToneMapping;
-        this.renderer.toneMappingExposure = 1.6;
+        this.renderer.toneMappingExposure = 1.8;
 
         this.renderer.shadowMap.enabled = true
         this.renderer.shadowMap.type = THREE.PCFShadowMap
@@ -37,6 +37,13 @@ export class ReleaseBanner{
 
         window.addEventListener("resize", (_e) => { this.checkForResize() });
         window.addEventListener("pointermove", this.onPointerMove.bind(this));
+
+        let themeMatch = window.matchMedia("(prefers-color-scheme: dark)");
+        this.useDarkTheme = themeMatch.matches;
+        themeMatch.addEventListener("change", (event) => {
+            this.useDarkTheme = event.matches;
+            this.onColorSchemeChange();
+        });
     }
 
     checkForResize(){
@@ -66,6 +73,15 @@ export class ReleaseBanner{
             this.sceneCamera.aspect = width / height;
             this.sceneCamera.updateProjectionMatrix();
         }
+        this.onResize(width, height);
+    }
+
+    onColorSchemeChange() {
+
+    }
+
+    onResize() {
+
     }
 
     onPointerMove(event) {
