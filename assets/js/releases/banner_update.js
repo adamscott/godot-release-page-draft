@@ -26,7 +26,7 @@ export class ReleaseBanner{
 
         this.viewSize = {x: 0.0, y: 0.0};
 
-        this.mouse = {x: 0.5, y: 0.5};
+        this.mouse = new THREE.Vector2( 0.5, 0.5 );
 
         this.observer = new IntersectionObserver(this.IntersectionObserverCallback.bind(this), {
             rootMargin: "0px",
@@ -96,6 +96,7 @@ export class ReleaseBanner{
     IntersectionObserverCallback(entries, observer){
         entries.forEach((entry)=>{
             if(entry.target != this.container) return;
+            this.events.dispatchEvent({ type: "visibilityChanged", visible: entry.isIntersecting});
             if(entry.isIntersecting){
                 this.play();
             }else{
