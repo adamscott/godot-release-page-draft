@@ -94,7 +94,17 @@ draft: true
 
             <!-- Highlights Cards -->
             
-            {% include_relative _components/card.html name="hdr_support" size="large" %}
+            {% include_relative _components/card.html name="rect_area_light" size="large" %}
+
+            <div class="sub-grid">
+                {% include_relative _components/card.html name="hdr_support" order="reverse" %}
+                {% include_relative _components/card.html name="drawable_textures" %}
+            </div>
+
+            <div class="sub-grid">
+                {% include_relative _components/card.html name="asset_store_update" order="reverse"%}
+                {% include_relative _components/card.html name="shader_previews" %}
+            </div>
 
         </section>
 
