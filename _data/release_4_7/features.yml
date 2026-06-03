@@ -1,0 +1,18 @@
+hdr_support:
+  title: "Title"
+  subtitle: "Tagline"
+  text: |
+    Text Content
+
+  read_more: https://PRLink
+  contributors:
+  - name: AuthorName
+    link: https://authorLink
+  media_author:
+    name: AuthorName
+    link: https://authorLink
+  compare:
+    before_image: screenshot-sdr.avif
+    after_image: screenshot-hdr.avif
+    before_text: SDR
+    after_text: HDR

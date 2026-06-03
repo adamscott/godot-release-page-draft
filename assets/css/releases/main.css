@@ -345,6 +345,7 @@ body {
 }
 
 #draft-warning{
+  color: var(--main-text-color);
   position: sticky;
   width: 100%;
   background-color: #ff428e;

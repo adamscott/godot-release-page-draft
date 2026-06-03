@@ -1,18 +1,20 @@
+{% assign media_path = site.baseurl | append: "/storage/releases/" | append: page.version | append: "/images" %}
 {% assign item = include.item %}
 {% assign media_ext = item.media | split: "." | last %}
 
 {% assign image_exts = "png, webp, jpg, jpeg" %}
 {% assign video_exts = "mp4, webm" %}
 
+
 <div class="media-block">
     {%if image_exts contains media_ext %}
-        <img src="{{ site.baseurl }}/storage/releases/4.6/images/{{item.media}}" alt="" loading="lazy">
+        <img src="{{media_path}}/{{item.media}}" alt="" loading="lazy">
     {% endif %}
 
     {%if video_exts contains media_ext %}
         <video
-        poster="{{ site.baseurl }}/storage/releases/4.6/images/{{item.poster}}"
-        src="{{ site.baseurl }}/storage/releases/4.6/images/{{item.media}}" muted loop playsinline preload="none"></video>
+        poster="{{media_path}}/{{item.poster}}"
+        src="{{media_path}}/{{item.media}}" muted loop playsinline preload="none"></video>
         <div class="video-tag">
             <svg class="icon" name="play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
                 <path d="M3 3.732a1.5 1.5 0 0 1 2.305-1.265l6.706 4.267a1.5 1.5 0 0 1 0 2.531l-6.706 4.268A1.5 1.5 0 0 1 3 12.267V3.732Z" />
@@ -28,10 +30,10 @@
     
     {%if item.compare %}
         <div class="media-compare">
-            <img src="{{ site.baseurl }}/storage/releases/4.6/images/{{item.compare.after_image}}" alt="" loading="lazy">
+            <img src="{{media_path}}/{{item.compare.after_image}}" alt="" loading="lazy">
             <div class="after-text">{{item.compare.after_text}}</div>
             <div class="before" style="clip-path: inset(0 50% 0 0);">
-                <img src="{{ site.baseurl }}/storage/releases/4.6/images/{{item.compare.before_image}}" alt="" loading="lazy">
+                <img src="{{media_path}}/{{item.compare.before_image}}" alt="" loading="lazy">
                 <div class="before-text">{{item.compare.before_text}}</div>
             </div>
 

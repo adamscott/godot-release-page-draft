@@ -1,0 +1,31 @@
+introduction:
+  text: |
+    Introduction text
+
+conclusion:
+  title: Team work makes the dream work
+  text: |
+    Thanks to all the contributors who had PRs merged into this release.
+    Special thanks goes out to all the engine teams that collaborated on this release, especially since commits to other related repositories do not show up in this graphic.
+
+end_message:
+  text: |
+    End message text
+  author:
+    name: Author Name
+    role: Author Role
+    link: https://author_link
+
+credits:
+  title: Release page credits
+  list:
+    - text: Texts and revisions
+      by: '[Author name](https://author_link)'
+    - text: Page revision
+      by: '[Author name](https://author_link), [Author name](https://author_link)'
+    - text: Page design and integration
+      by: '[Thibaud Goiffon](https://gotibo.fr/)'
+    - text: Additional fixes and contributions
+      by: '[Author name](https://author_link), [Author name](https://author_link), [Author name](https://author_link)'
+    - text: Additional media content
+      by: Tagged content creators

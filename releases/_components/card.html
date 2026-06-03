@@ -1,4 +1,5 @@
-{% assign item = site.data['release_4_6'].features[include.name] %}
+{% assign release_string = {{page.version}} | replace: ".", "_"  | prepend: 'release_' %}
+{% assign item = site.data[release_string].features[include.name] %}
 
 <div class="card {{include.size}} {{include.order}}">
     {%if item.media or item.compare %}
