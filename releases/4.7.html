@@ -114,57 +114,96 @@ draft: true
 
         <section class="section-body">
 
-            <h4 class="sub-section">Core</h4>
-
-            <!-- Core Cards -->
-
             <h4 class="sub-section">Documentation</h4>
 
             <!-- Documentation Cards -->
 
-            {% include_relative _components/card.html name="documentation_layout_update" %}
+            {% include_relative _components/card.html name="documentation_layout_update" size="medium" %}
 
-            {% include_relative _components/card.html name="remote_scene_inspector_groups_folding" %}
+            <div class="sub-grid">
+                {% include_relative _components/card.html name="remote_scene_inspector_groups_folding" order="reverse"%}
+    
+                {% include_relative _components/card.html name="property_list_helper_documentation" %}
+            </div>
 
             <h4 class="sub-section">2D</h4>
 
             <!-- 2D Cards -->
 
-            {% include_relative _components/card.html name="one_way_collision_direction" %}
+            <div class="sub-grid">
+                {% include_relative _components/card.html name="one_way_collision_direction" order="reverse"%}
+    
+                {% include_relative _components/card.html name="conic_gradient" %}
+            </div>
 
             <h4 class="sub-section">3D</h4>
 
             <!-- 3D Cards -->
 
-            {% include_relative _components/card.html name="ruler_3d_components" %}
+            
+            {% include_relative _components/card.html name="path3d_snap" size="medium" %}
+            
+            <div class="sub-grid">
+                {% include_relative _components/card.html name="ruler_3d_components" order="reverse"%}
+                {% include_relative _components/card.html name="csg_smoothing" %}
+            </div>
 
-            {% include_relative _components/card.html name="path3d_snap" %}
+            {% include_relative _components/card.html name="vertex_snap" size="medium" %}
+
 
             <h4 class="sub-section">GUI</h4>
 
             <!-- GUI Cards -->
 
-            {% include_relative _components/card.html name="tree_drag_and_drop_update" %}
+            {% include_relative _components/card.html name="tree_drag_and_drop_update" size="medium" %}
 
-            {% include_relative _components/card.html name="control_transform_offset" %}
+            <div class="sub-grid">
+                {% include_relative _components/card.html name="popup_search" %}
+    
+                {% include_relative _components/card.html name="text_label_image_scale" %}
+    
+                {% include_relative _components/card.html name="accessibility_region" %}
+            </div>
 
-            {% include_relative _components/card.html name="popup_search" %}
+            {% include_relative _components/card.html name="control_transform_offset" size="medium" order="reverse"%}
 
-            {% include_relative _components/card.html name="text_label_image_scale" %}
+            <div class="sub-grid">
+                {% include_relative _components/card.html name="mono_font_code_names" order="reverse"%}
+    
+                {% include_relative _components/card.html name="tiling_atlas_texture" %}
+            </div>
+
 
             <h4 class="sub-section">Editor</h4>
 
             <!-- Editor Cards -->
 
-            {% include_relative _components/card.html name="nearest_neighbor_scaling" %}
+            {% include_relative _components/card.html name="follow_selection" size="medium" %}
 
-            {% include_relative _components/card.html name="copy_past_properties" %}
+            <div class="sub-grid">
+                {% include_relative _components/card.html name="nearest_neighbor_scaling" %}
+    
+                {% include_relative _components/card.html name="copy_past_properties" %}
+    
+                {% include_relative _components/card.html name="mesh_library_update" %}
+            </div>
 
-            {% include_relative _components/card.html name="mesh_library_update" %}
+            {% include_relative _components/card.html name="scene_painter_tool" size="medium" %}
 
-            {% include_relative _components/card.html name="scene_painter_tool" %}
 
-            {% include_relative _components/card.html name="display_enum_remote_tree" %}
+            <div class="sub-grid">
+                {% include_relative _components/card.html name="project_version_discrepancies" order="reverse"%}
+                
+                {% include_relative _components/card.html name="create_node_type_filter" %}
+            </div>
+
+            <div class="sub-grid">
+                {% include_relative _components/card.html name="display_enum_remote_tree" %}
+                
+                {% include_relative _components/card.html name="navigate_to_script" %}
+    
+                {% include_relative _components/card.html name="view_3d_controller" %}
+            </div>
 
         </section>
 
@@ -178,40 +217,41 @@ draft: true
 
             <!-- Animation Cards -->
 
-            {% include_relative _components/card.html name="tween_await" %}
-
-            {% include_relative _components/card.html name="collapse_animation_groups" %}
+            <div class="sub-grid">
+                {% include_relative _components/card.html name="tween_await" order="reverse"%}
+    
+                {% include_relative _components/card.html name="collapse_animation_groups" %}
+            </div>
 
             <h4 class="sub-section">Export</h4>
 
             <!-- Export Cards -->
 
-            {% include_relative _components/card.html name="export_template_dialog_update" %}
+            {% include_relative _components/card.html name="export_template_dialog_update" size="medium" order="reverse"%}
 
             <h4 class="sub-section">Input</h4>
 
             <!-- Input Cards -->
+            
+            {% include_relative _components/card.html name="virtual_joystick" size="medium" %}
 
-            {% include_relative _components/card.html name="virtual_joystick" %}
+            <div class="sub-grid">
+                {% include_relative _components/card.html name="ignore_joypad" %}
+    
+                {% include_relative _components/card.html name="input_events_device_ids" %}
+    
+                {% include_relative _components/card.html name="ios_sdl3" %}
+            </div>
 
-            <h4 class="sub-section">Import</h4>
-
-            <!-- Import Cards -->
+            {% include_relative _components/card.html name="joypad_motion_sensors" size="medium" order="reverse"%}
 
             <h4 class="sub-section">Rendering</h4>
 
             <!-- Rendering Cards -->
 
-            {% include_relative _components/card.html name="clearcoat_update" %}
+            {% include_relative _components/card.html name="clearcoat_update" size="medium" %}
 
-            <h4 class="sub-section">Internationalization</h4>
-
-            <!-- Internationalization Cards -->
-
-
-            <h4 class="sub-section">XR</h4>
-
-            <!-- XR Cards -->
+            {% include_relative _components/card.html name="particles3d_scale_and_rotation" size="medium" order="reverse"%}
 
         </section>
 
@@ -225,19 +265,27 @@ draft: true
 
             <!-- Android Cards -->
 
-            {% include_relative _components/card.html name="picture_in_picture" %}
+            {% include_relative _components/card.html name="picture_in_picture" size="medium"%}
 
-            {% include_relative _components/card.html name="android_window_resize" %}
+            <div class="sub-grid">
+                {% include_relative _components/card.html name="android_window_resize" order="reverse"%}
+    
+                {% include_relative _components/card.html name="android_native_file_picker" %}
+            </div>
 
-            {% include_relative _components/card.html name="android_native_file_picker" %}
+            {% include_relative _components/card.html name="custom_splash_screen" size="medium"%}
 
-            <h4 class="sub-section">Windows</h4>
+            <div class="sub-grid">
+                {% include_relative _components/card.html name="gradle_plugins_support" order="reverse"%}
+    
+                {% include_relative _components/card.html name="gdscript_java_interfaces" %}
+            </div>
 
-            <!-- Windows Cards -->
+            <h4 class="sub-section">Linux</h4>
 
-            <h4 class="sub-section">Physics</h4>
+            <!-- Linux Cards -->
 
-            <!-- Physics Cards -->
+            {% include_relative _components/card.html name="wayland_touch_support" size="medium" %}
 
         </section>
 
@@ -251,11 +299,8 @@ draft: true
 
             <!-- GDExtension Cards -->
 
-            {% include_relative _components/card.html name="gdextensions_view_inside_settings" %}
+            {% include_relative _components/card.html name="gdextensions_view_inside_settings" size="medium" order="reverse" %}
 
-            <h4 class="sub-section">GDScript</h4>
-
-            <!-- GDScript Cards -->
 
         </section>
 

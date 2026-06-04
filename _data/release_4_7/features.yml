@@ -288,7 +288,7 @@ control_transform_offset:
     name: "Timo Schwarzer"
     link: "https://github.com/timoschwarzer"
   media: control_transform_offset.webm
-  poster: control_transform_offset.webp
+  poster: control_transform_offset_poster.webp
 popup_search: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -302,7 +302,7 @@ popup_search:
     name: "Alexander Streng"
     link: "https://github.com/warriormaster12"
   media: popup_search.webm
-  poster: popup_search.webp
+  poster: popup_search_poster.webp
 text_label_image_scale: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -329,7 +329,7 @@ android_window_resize:
     name: "Anish Kumar"
     link: "https://github.com/syntaxerror247"
   media: android_window_resize.webm
-  poster: android_window_resize.webp
+  poster: android_window_resize_poster.webp
 one_way_collision_direction: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -343,7 +343,7 @@ one_way_collision_direction:
     name: "szunami"
     link: "https://github.com/szunami"
   media: one_way_collision_direction.webm
-  poster: one_way_collision_direction.webp
+  poster: one_way_collision_direction_poster.webp
 clearcoat_update: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -374,7 +374,7 @@ android_native_file_picker:
     name: "Anish Kumar"
     link: "https://github.com/syntaxerror247"
   media: android_native_file_picker.webm
-  poster: android_native_file_picker.webp
+  poster: android_native_file_picker_poster.webp
 wayland_touch_support: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -385,8 +385,10 @@ wayland_touch_support:
       name: "deralmas"
       link: "https://github.com/deralmas"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Ricardo Subtil"
+    link: "https://github.com/rsubtil"
+  media: wayland_touch_support.webm
+  poster: wayland_touch_support_poster.webp
 particles3d_scale_and_rotation: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -397,8 +399,10 @@ particles3d_scale_and_rotation:
       name: "QbieShay"
       link: "https://github.com/QbieShay"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "QbieShay"
+    link: "https://github.com/QbieShay"
+  media: particles3d_scale_and_rotation.webm
+  poster: particles3d_scale_and_rotation_poster.webp
 vertex_snap: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -409,8 +413,10 @@ vertex_snap:
       name: "Robert Yevdokimov"
       link: "https://github.com/ryevdokimov"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Robert Yevdokimov"
+    link: "https://github.com/ryevdokimov"
+  media: vertex_snap.webm
+  poster: vertex_snap_poster.webp
 ignore_joypad: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -420,9 +426,7 @@ ignore_joypad:
     - 
       name: "Nintorch"
       link: "https://github.com/Nintorch"
-  media_author: 
-    name: "Username"
-    link: "URL"
+  media: ignore_joypad.webp
 property_list_helper_documentation: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -433,8 +437,9 @@ property_list_helper_documentation:
       name: "bruvzg"
       link: "https://github.com/bruvzg"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "bruvzg"
+    link: "https://github.com/bruvzg"
+  media: property_list_helper_documentation.webp
 project_version_discrepancies: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -445,8 +450,10 @@ project_version_discrepancies:
       name: "Malcolm Anderson"
       link: "https://github.com/Meorge"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Malcolm Anderson"
+    link: "https://github.com/Meorge"
+  media: project_version_discrepancies.webm
+  poster: project_version_discrepancies_poster.webp
 input_events_device_ids: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -456,9 +463,7 @@ input_events_device_ids:
     - 
       name: "Nintorch"
       link: "https://github.com/Nintorch"
-  media_author: 
-    name: "Username"
-    link: "URL"
+  media: input_events_device_ids.webp
 create_node_type_filter: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -469,8 +474,10 @@ create_node_type_filter:
       name: "Tomasz Chabora"
       link: "https://github.com/KoBeWi"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Tomasz Chabora"
+    link: "https://github.com/KoBeWi"
+  media: create_node_type_filter.webm
+  poster: create_node_type_filter_poster.webp
 ios_sdl3: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -480,9 +487,7 @@ ios_sdl3:
     - 
       name: "Nintorch"
       link: "https://github.com/Nintorch"
-  media_author: 
-    name: "Username"
-    link: "URL"
+  media: ios_sdl3.webp
 joypad_motion_sensors: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -492,9 +497,7 @@ joypad_motion_sensors:
     - 
       name: "Nintorch"
       link: "https://github.com/Nintorch"
-  media_author: 
-    name: "Username"
-    link: "URL"
+  media: placeholder.webp
 accessibility_region: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -504,9 +507,7 @@ accessibility_region:
     - 
       name: "Nolan Darilek"
       link: "https://github.com/ndarilek"
-  media_author: 
-    name: "Username"
-    link: "URL"
+  media: placeholder.webp
 pass_unique_buffer: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -516,9 +517,7 @@ pass_unique_buffer:
     - 
       name: "Skyth"
       link: "https://github.com/blueskythlikesclouds"
-  media_author: 
-    name: "Username"
-    link: "URL"
+  media: placeholder.webp
 mono_font_code_names: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -529,8 +528,9 @@ mono_font_code_names:
       name: "Malcolm Anderson"
       link: "https://github.com/Meorge"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Malcolm Anderson"
+    link: "https://github.com/Meorge"
+  media: mono_font_code_names.webp
 navigate_to_script: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -541,8 +541,10 @@ navigate_to_script:
       name: "Jin Yang"
       link: "https://github.com/jinyangcruise"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Jin Yang"
+    link: "https://github.com/jinyangcruise"
+  media: navigate_to_script.webm
+  poster: navigate_to_script.webp
 conic_gradient: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -552,9 +554,7 @@ conic_gradient:
     - 
       name: "Koliur Rahman"
       link: "https://github.com/dugramen"
-  media_author: 
-    name: "Username"
-    link: "URL"
+  media: conic_gradient.webp
 tiling_atlas_texture: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -564,9 +564,7 @@ tiling_atlas_texture:
     - 
       name: "Kleonc"
       link: "https://github.com/kleonc"
-  media_author: 
-    name: "Username"
-    link: "URL"
+  media: tiling_atlas_texture.webp
 follow_selection: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -577,8 +575,10 @@ follow_selection:
       name: "Hugo Locurcio"
       link: "https://github.com/Calinou"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Hugo Locurcio"
+    link: "https://github.com/Calinou"
+  media: follow_selection.webm
+  poster: follow_selection_poster.webp
 view_3d_controller: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -588,9 +588,7 @@ view_3d_controller:
     - 
       name: "Michael Alexsander"
       link: "https://github.com/YeldhamDev"
-  media_author: 
-    name: "Username"
-    link: "URL"
+  media: placeholder.webp
 gradle_plugins_support: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -600,9 +598,7 @@ gradle_plugins_support:
     - 
       name: "Fredia Huya-Kouadio"
       link: "https://github.com/m4gr3d"
-  media_author: 
-    name: "Username"
-    link: "URL"
+  media: gradle_plugin.webp
 csg_smoothing: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -613,8 +609,9 @@ csg_smoothing:
       name: "Jesusemora"
       link: "https://github.com/Jesusemora"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Jesusemora"
+    link: "https://github.com/Jesusemora"
+  media: csg_smoothing.webp
 gdscript_java_interfaces: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -624,9 +621,7 @@ gdscript_java_interfaces:
     - 
       name: "Fredia Huya-Kouadio"
       link: "https://github.com/m4gr3d"
-  media_author: 
-    name: "Username"
-    link: "URL"
+  media: placeholder.webp
 custom_splash_screen: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -636,6 +631,4 @@ custom_splash_screen:
     - 
       name: "Anish Kumar"
       link: "https://github.com/syntaxerror247"
-  media_author: 
-    name: "Username"
-    link: "URL"
+  media: custom_splash_screen.webp
