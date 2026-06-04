@@ -122,21 +122,49 @@ draft: true
 
             <!-- Documentation Cards -->
 
+            {% include_relative _components/card.html name="documentation_layout_update" %}
+
+            {% include_relative _components/card.html name="remote_scene_inspector_groups_folding" %}
+
             <h4 class="sub-section">2D</h4>
 
             <!-- 2D Cards -->
+
+            {% include_relative _components/card.html name="one_way_collision_direction" %}
 
             <h4 class="sub-section">3D</h4>
 
             <!-- 3D Cards -->
 
+            {% include_relative _components/card.html name="ruler_3d_components" %}
+
+            {% include_relative _components/card.html name="path3d_snap" %}
+
             <h4 class="sub-section">GUI</h4>
 
             <!-- GUI Cards -->
 
+            {% include_relative _components/card.html name="tree_drag_and_drop_update" %}
+
+            {% include_relative _components/card.html name="control_transform_offset" %}
+
+            {% include_relative _components/card.html name="popup_search" %}
+
+            {% include_relative _components/card.html name="text_label_image_scale" %}
+
             <h4 class="sub-section">Editor</h4>
 
             <!-- Editor Cards -->
+
+            {% include_relative _components/card.html name="nearest_neighbor_scaling" %}
+
+            {% include_relative _components/card.html name="copy_past_properties" %}
+
+            {% include_relative _components/card.html name="mesh_library_update" %}
+
+            {% include_relative _components/card.html name="scene_painter_tool" %}
+
+            {% include_relative _components/card.html name="display_enum_remote_tree" %}
 
         </section>
 
@@ -150,13 +178,21 @@ draft: true
 
             <!-- Animation Cards -->
 
+            {% include_relative _components/card.html name="tween_await" %}
+
+            {% include_relative _components/card.html name="collapse_animation_groups" %}
+
             <h4 class="sub-section">Export</h4>
 
             <!-- Export Cards -->
 
+            {% include_relative _components/card.html name="export_template_dialog_update" %}
+
             <h4 class="sub-section">Input</h4>
 
             <!-- Input Cards -->
+
+            {% include_relative _components/card.html name="virtual_joystick" %}
 
             <h4 class="sub-section">Import</h4>
 
@@ -165,6 +201,8 @@ draft: true
             <h4 class="sub-section">Rendering</h4>
 
             <!-- Rendering Cards -->
+
+            {% include_relative _components/card.html name="clearcoat_update" %}
 
             <h4 class="sub-section">Internationalization</h4>
 
@@ -187,6 +225,12 @@ draft: true
 
             <!-- Android Cards -->
 
+            {% include_relative _components/card.html name="picture_in_picture" %}
+
+            {% include_relative _components/card.html name="android_window_resize" %}
+
+            {% include_relative _components/card.html name="android_native_file_picker" %}
+
             <h4 class="sub-section">Windows</h4>
 
             <!-- Windows Cards -->
@@ -206,6 +250,8 @@ draft: true
             <h4 class="sub-section">GDExtension</h4>
 
             <!-- GDExtension Cards -->
+
+            {% include_relative _components/card.html name="gdextensions_view_inside_settings" %}
 
             <h4 class="sub-section">GDScript</h4>
 

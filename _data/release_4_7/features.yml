@@ -62,9 +62,9 @@ rect_area_light:
     link: "https://github.com/passivestar"
   media: "arealightfhd_small.webm"
 nearest_neighbor_scaling: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/79731"
   contributors: 
     - 
@@ -73,10 +73,15 @@ nearest_neighbor_scaling:
   media_author: 
     name: "Username"
     link: "URL"
+  compare:
+    before_image: nearest.webp
+    after_image: bilinear.webp
+    before_text: Nearest
+    after_text: Bilinear
 copy_past_properties: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/111469"
   contributors: 
     - 
@@ -85,46 +90,47 @@ copy_past_properties:
   media_author: 
     name: "Username"
     link: "URL"
+  media: editor-copy-paste-category-properties.webm
 tween_await: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/79712"
   contributors: 
     - 
       name: "Tomasz Chabora"
       link: "https://github.com/KoBeWi"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Tomasz Chabora"
+    link: "https://github.com/KoBeWi"
+  media: tween_await.webm
 virtual_joystick: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/110933"
   contributors: 
     - 
       name: "Kazox61"
       link: "https://github.com/Kazox61"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Kazox61"
+    link: "https://github.com/Kazox61"
+  media: virtual-joystick.webm
 mesh_library_update: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/117376"
   contributors: 
     - 
       name: "Michael Alexsander"
       link: "https://github.com/YeldhamDev"
-  media_author: 
-    name: "Username"
-    link: "URL"
+  media: meshlibrary-editor.webp
 tree_drag_and_drop_update: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/112993"
   contributors: 
     - 
@@ -133,22 +139,24 @@ tree_drag_and_drop_update:
   media_author: 
     name: "Username"
     link: "URL"
+  media: tree-improve-drag-and-drop.mp4
 export_template_dialog_update: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/117072"
   contributors: 
     - 
       name: "Tomasz Chabora"
       link: "https://github.com/KoBeWi"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Tomasz Chabora"
+    link: "https://github.com/KoBeWi"
+  media: export_template_dialog_update.mp4
 scene_painter_tool: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/109360"
   contributors: 
     - 
@@ -157,22 +165,28 @@ scene_painter_tool:
   media_author: 
     name: "Username"
     link: "URL"
+  media: scene_painter_tool.mp4
 documentation_layout_update: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/107597"
   contributors: 
     - 
       name: "Danil Alexeev"
       link: "https://github.com/dalexeev"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Danil Alexeev"
+    link: "https://github.com/dalexeev"
+  compare:
+    before_image: editor-help-appearance-before.webp
+    after_image: editor-help-appearance-after.webp
+    before_text: Before
+    after_text: After
 remote_scene_inspector_groups_folding: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/117357"
   contributors: 
     - 
@@ -181,58 +195,63 @@ remote_scene_inspector_groups_folding:
   media_author: 
     name: "Username"
     link: "URL"
+  media: remote_scene_inspector_groups_folding.webm
 gdextensions_view_inside_settings: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/118063"
   contributors: 
     - 
       name: "Aaron Franke"
       link: "https://github.com/aaronfranke"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Aaron Franke"
+    link: "https://github.com/aaronfranke"
+  media: gdextensions_view_inside_settings.webp
 ruler_3d_components: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/106785"
   contributors: 
     - 
       name: "Robert Yevdokimov"
       link: "https://github.com/ryevdokimov"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Robert Yevdokimov"
+    link: "https://github.com/ryevdokimov"
+  media: editor-3d-ruler-1.webp
 collapse_animation_groups: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/113479"
   contributors: 
     - 
       name: "Malcolm Anderson"
       link: "https://github.com/Meorge"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Malcolm Anderson"
+    link: "https://github.com/Meorge"
+  media: collapse_animation_groups.webm
 path3d_snap: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/102085"
   contributors: 
     - 
       name: "Gustavo Jaruga Cruz"
       link: "https://github.com/GustJc"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Gustavo Jaruga Cruz"
+    link: "https://github.com/GustJc"
+  media: path3d_snap.webm
 display_enum_remote_tree: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/115705"
   contributors: 
     - 
@@ -241,106 +260,125 @@ display_enum_remote_tree:
   media_author: 
     name: "Username"
     link: "URL"
+  media: display_enum_remote_tree.webp
 picture_in_picture: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/114505"
   contributors: 
     - 
       name: "Fredia Huya-Kouadio"
       link: "https://github.com/m4gr3d"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Fredia Huya-Kouadio"
+    link: "https://github.com/m4gr3d"
+  media: picture_in_picture.webm
+  poster: picture_in_picture_poster.webp
 control_transform_offset: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/87081"
   contributors: 
     - 
       name: "Timo Schwarzer"
       link: "https://github.com/timoschwarzer"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Timo Schwarzer"
+    link: "https://github.com/timoschwarzer"
+  media: control_transform_offset.webm
+  poster: control_transform_offset.webp
 popup_search: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/114236"
   contributors: 
     - 
       name: "Alexander Streng"
       link: "https://github.com/warriormaster12"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Alexander Streng"
+    link: "https://github.com/warriormaster12"
+  media: popup_search.webm
+  poster: popup_search.webp
 text_label_image_scale: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/112617"
   contributors: 
     - 
       name: "Malcolm Anderson"
       link: "https://github.com/Meorge"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Malcolm Anderson"
+    link: "https://github.com/Meorge"
+  media: text_label_image_scale.webp
 android_window_resize: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/118417"
   contributors: 
     - 
       name: "Anish Kumar"
       link: "https://github.com/syntaxerror247"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Anish Kumar"
+    link: "https://github.com/syntaxerror247"
+  media: android_window_resize.webm
+  poster: android_window_resize.webp
 one_way_collision_direction: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/104736"
   contributors: 
     - 
       name: "szunami"
       link: "https://github.com/szunami"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "szunami"
+    link: "https://github.com/szunami"
+  media: one_way_collision_direction.webm
+  poster: one_way_collision_direction.webp
 clearcoat_update: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/111464"
   contributors: 
     - 
       name: "Alfonso Grimaldo"
       link: "https://github.com/LiveTrower"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Alfonso Grimaldo"
+    link: "https://github.com/LiveTrower"
+  compare:
+    before_image: clearcoat_update_before.webp
+    after_image: clearcoat_update_after.webp
+    before_text: Before
+    after_text: After
 android_native_file_picker: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/115257"
   contributors: 
     - 
       name: "Anish Kumar"
       link: "https://github.com/syntaxerror247"
   media_author: 
-    name: "Username"
-    link: "URL"
+    name: "Anish Kumar"
+    link: "https://github.com/syntaxerror247"
+  media: android_native_file_picker.webm
+  poster: android_native_file_picker.webp
 wayland_touch_support: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/113886"
   contributors: 
     - 
@@ -350,9 +388,9 @@ wayland_touch_support:
     name: "Username"
     link: "URL"
 particles3d_scale_and_rotation: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/112447"
   contributors: 
     - 
@@ -362,9 +400,9 @@ particles3d_scale_and_rotation:
     name: "Username"
     link: "URL"
 vertex_snap: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/117380"
   contributors: 
     - 
@@ -374,9 +412,9 @@ vertex_snap:
     name: "Username"
     link: "URL"
 ignore_joypad: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/115119"
   contributors: 
     - 
@@ -386,9 +424,9 @@ ignore_joypad:
     name: "Username"
     link: "URL"
 property_list_helper_documentation: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/115253"
   contributors: 
     - 
@@ -398,9 +436,9 @@ property_list_helper_documentation:
     name: "Username"
     link: "URL"
 project_version_discrepancies: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/111528"
   contributors: 
     - 
@@ -410,9 +448,9 @@ project_version_discrepancies:
     name: "Username"
     link: "URL"
 input_events_device_ids: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/116274"
   contributors: 
     - 
@@ -422,9 +460,9 @@ input_events_device_ids:
     name: "Username"
     link: "URL"
 create_node_type_filter: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/111518"
   contributors: 
     - 
@@ -434,9 +472,9 @@ create_node_type_filter:
     name: "Username"
     link: "URL"
 ios_sdl3: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/114316"
   contributors: 
     - 
@@ -446,9 +484,9 @@ ios_sdl3:
     name: "Username"
     link: "URL"
 joypad_motion_sensors: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/111679"
   contributors: 
     - 
@@ -458,9 +496,9 @@ joypad_motion_sensors:
     name: "Username"
     link: "URL"
 accessibility_region: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/114449"
   contributors: 
     - 
@@ -470,9 +508,9 @@ accessibility_region:
     name: "Username"
     link: "URL"
 pass_unique_buffer: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/115177"
   contributors: 
     - 
@@ -482,9 +520,9 @@ pass_unique_buffer:
     name: "Username"
     link: "URL"
 mono_font_code_names: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/112219"
   contributors: 
     - 
@@ -494,9 +532,9 @@ mono_font_code_names:
     name: "Username"
     link: "URL"
 navigate_to_script: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/112796"
   contributors: 
     - 
@@ -506,9 +544,9 @@ navigate_to_script:
     name: "Username"
     link: "URL"
 conic_gradient: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/115394"
   contributors: 
     - 
@@ -518,9 +556,9 @@ conic_gradient:
     name: "Username"
     link: "URL"
 tiling_atlas_texture: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/113808"
   contributors: 
     - 
@@ -530,9 +568,9 @@ tiling_atlas_texture:
     name: "Username"
     link: "URL"
 follow_selection: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/99499"
   contributors: 
     - 
@@ -542,9 +580,9 @@ follow_selection:
     name: "Username"
     link: "URL"
 view_3d_controller: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/115957"
   contributors: 
     - 
@@ -554,9 +592,9 @@ view_3d_controller:
     name: "Username"
     link: "URL"
 gradle_plugins_support: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/115888"
   contributors: 
     - 
@@ -566,9 +604,9 @@ gradle_plugins_support:
     name: "Username"
     link: "URL"
 csg_smoothing: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/116749"
   contributors: 
     - 
@@ -578,9 +616,9 @@ csg_smoothing:
     name: "Username"
     link: "URL"
 gdscript_java_interfaces: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/115498"
   contributors: 
     - 
@@ -590,9 +628,9 @@ gdscript_java_interfaces:
     name: "Username"
     link: "URL"
 custom_splash_screen: 
-  title: ""
-  subtitle: ""
-  text: ""
+  title: "Feature Title"
+  subtitle: "Feature Tagline"
+  text: "Feature Content"
   read_more: "https://github.com/godotengine/godot/pull/114671"
   contributors: 
     - 
