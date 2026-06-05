@@ -497,7 +497,7 @@ joypad_motion_sensors:
     - 
       name: "Nintorch"
       link: "https://github.com/Nintorch"
-  media: placeholder.webp
+  media: joypad_motion_sensors.webp
 accessibility_region: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -507,7 +507,7 @@ accessibility_region:
     - 
       name: "Nolan Darilek"
       link: "https://github.com/ndarilek"
-  media: placeholder.webp
+  media: accessibility_region.webp
 pass_unique_buffer: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -517,7 +517,7 @@ pass_unique_buffer:
     - 
       name: "Skyth"
       link: "https://github.com/blueskythlikesclouds"
-  media: placeholder.webp
+  media: pass_unique_buffer.webp
 mono_font_code_names: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -588,7 +588,7 @@ view_3d_controller:
     - 
       name: "Michael Alexsander"
       link: "https://github.com/YeldhamDev"
-  media: placeholder.webp
+  media: view_3d_controller.webp
 gradle_plugins_support: 
   title: "Feature Title"
   subtitle: "Feature Tagline"
@@ -621,7 +621,7 @@ gdscript_java_interfaces:
     - 
       name: "Fredia Huya-Kouadio"
       link: "https://github.com/m4gr3d"
-  media: placeholder.webp
+  media: gdscript_java_interfaces.webp
 custom_splash_screen: 
   title: "Feature Title"
   subtitle: "Feature Tagline"

@@ -249,9 +249,14 @@ draft: true
 
             <!-- Rendering Cards -->
 
-            {% include_relative _components/card.html name="clearcoat_update" size="medium" %}
-
+            
             {% include_relative _components/card.html name="particles3d_scale_and_rotation" size="medium" order="reverse"%}
+            
+            <div class="sub-grid">
+                {% include_relative _components/card.html name="clearcoat_update" order="reverse" %}
+    
+                {% include_relative _components/card.html name="pass_unique_buffer" %}
+            </div>
 
         </section>
 
