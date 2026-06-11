@@ -12,22 +12,28 @@ conclusion:
 
 end_message:
   text: |
-    End message text
+    It's been over 3 years since 4.0 dropped, and we're arguably as far removed from that now as 4.0 is from 3.x. It's only gotten easier to publish a title with the engine, as evidenced by Steam currently listing over 700 new games published in 2026 so far; we're not even halfway through the year, and we're already over halfway to 2025's 1,200+ total. This is to say nothing of itch.io, which receives over 1&#x2060;,&#x2060;000 new Godot games every week.
+
+    Godot 4.6 gave users their most streamlined baseline release yet, whose focus on polish and usability immediately resonated with the community. This release aimed to double-down on that approach, making not only the engine itself more streamlined, but the tooling and resources surrounding it as well.
+
+    There's still plenty to be done with the engine, as every user with a favorite feature that's currently missing would know. However, we're extremely impressed and inspired by the time and energy that the community has put into this global passion project.
+
+    Well over 300 contributors are responsible for this latest feature release, totalling over 1&#x2060;,&#x2060;600 pull requests. From the bottom of our hearts, we want to thank each and every one of you for your incredible work, as well as all users who've sponsored our Development Fund, reported bugs, opened proposals, or supported one-another on our community platforms.
   author:
-    name: Author Name
-    role: Author Role
-    link: https://author_link
+    name: Thaddeus Crews
+    role: Release Manager
+    link: https://github.com/Repiteo
 
 credits:
   title: Release page credits
   list:
     - text: Texts and revisions
-      by: "[Author name](https://author_link)"
+      by: "[Ilena Pegan](https://github.com/ilenawho), [Hugo Locurcio](https://github.com/calinou), and [Adam Scott](https://github.com/adamscott)"
     - text: Page revision
-      by: "[Author name](https://author_link), [Author name](https://author_link)"
+      by: "[A Thousand Ships](https://github.com/athousandships), and [John Veness](https://github.com/JohnVeness)"
     - text: Page design and integration
       by: "[Thibaud Goiffon](https://gotibo.fr/)"
     - text: Additional fixes and contributions
-      by: "[Author name](https://author_link), [Author name](https://author_link), [Author name](https://author_link)"
+      by: "[Fredia Huya-Kouadio](https://github.com/m4gr3d), [Repiteo](https://github.com/Repiteo), [Emilio Coppola](https://github.com/coppolaemilio)"
     - text: Additional media content
       by: Tagged content creators

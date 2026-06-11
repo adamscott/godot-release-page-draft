@@ -316,8 +316,8 @@ draft: true
         <section id="section-epilogue" class="section-header">
             <div class="wrap">
                 <img src="{{ site.baseurl }}/storage/releases/team_work.webp" alt="">
-                <h3 class="title">{{ general.conclusion.title}}</h3>
-                {{ general.conclusion.text | markdownify}}
+                <h3 class="title">{{- general.conclusion.title -}}</h3>
+                {{- general.conclusion.text | markdownify -}}
             </div>
         </section>
 
@@ -330,7 +330,7 @@ draft: true
                     {% assign scale = contributor_data[1] %}
                     <a class="scale-{{scale}}"
                     href="https://github.com/godotengine/godot/pulls?q=author%3A{{handle}}+is%3Apr+milestone%3A{{page.release_version_number}}+is%3Aclosed+is%3Amerged+">
-                        {{ handle }}
+                        {{- handle -}}
                     </a>
                 {% endfor %}
             </div>
@@ -338,14 +338,14 @@ draft: true
             {% assign end_message = general.end_message %}
             <div class="quote">
                 <div class="text">
-                    {{ end_message.text | markdownify}}
+                    {{- end_message.text | markdownify -}}
                 </div>
                 <div class="author">
                     <a href="{{ end_message.author.link }}"">
-                        {{ end_message.author.name }}
+                        {{- end_message.author.name -}}
                     </a>
                     <span class="role">
-                        {{ end_message.author.role }}
+                        {{- end_message.author.role -}}
                     </span>
                 </div>
             </div>
@@ -356,9 +356,9 @@ draft: true
             <h4 class="title">{{credits.title}}</h4>
             <div class="content">
                 {% for item in credits.list %}
-                        <h5 class="item-title">{{item.text}}</h5>
+                        <h5 class="item-title">{{- item.text -}}</h5>
                     {% if item.by %}
-                        <div class="by">{{item.by | markdownify}}</div>
+                        <div class="by">{{- item.by | markdownify -}}</div>
                     {% endif %}
                 {% endfor %}
             </div>
