@@ -26,6 +26,8 @@
   --main-bg-color: #17191a;
   --card-bg-color: #25282B;
 
+  --body-text-color: light-dark(var(--light-text-color), var(--dark-text-color));
+
   --accent-color: #1684D4;
   --accent-color-hover: #41A6F0;
   --blank-color: #282828;
@@ -61,7 +63,7 @@ body {
   margin: 0;
   font-family: var(--font-family);
   min-height: 100%;
-  color: light-dark(var(--light-text-color), var(--dark-text-color));
+  color: var(--body-text-color);
   background-color: light-dark(var(--light-bg-color), var(--dark-bg-color));
   font-size: 0.8em;
   -webkit-font-smoothing: antialiased;
@@ -357,6 +359,11 @@ body {
   text-align: center;
 }
 
+/* 
+ * Taken from 
+ * https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/kbd#try_it 
+ * and tweaked a little bit.
+ */
 kbd > kbd {
   background-color: #eeeeee;
   border-radius: 3px;
@@ -366,6 +373,8 @@ kbd > kbd {
     0 2px 0 0 rgb(255 255 255 / 0.7) inset;
   color: #333333;
   display: inline-block;
+  position: relative;
+  top: -2px;
   font-size: 0.85em;
   font-weight: bold;
   line-height: 1;

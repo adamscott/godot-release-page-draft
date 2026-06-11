@@ -26,22 +26,48 @@
   }
   .body{
     font-size: 1.2em;
+    line-height: 1.2;
     margin-bottom: 2.2em;
     opacity: 95%;
     p{
       margin-bottom: var(--s);
     }
     a{
-      color: var(--main-text-color);
+      color: var(--body-text-color);
       text-decoration: underline;
       font-weight: 600;
-      &:hover{
-        border-color: var(--main-text-color);
+
+      &:hover {
+        text-decoration: none;
+        border-color: var(--body-text-color);
         border-bottom: solid;
+
+        &:has(> code) {
+          border-color: var(--color-godot-but-a-little-brighter);
+        }
+      }
+
+      &:has(> code) {
+        text-decoration-color: var(--color-godot-but-a-little-brighter);
       }
     }
     ul{
       padding-left: 1.4em;
+
+      li {
+        margin-bottom: 0.6em; 
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }  
+      }
+    }
+  }
+  .title, .subtitle, .body {
+    code {
+      color: var(--color-godot-but-a-little-brighter);
+      font-size: 120%;
+      margin: 0 0.1em;
     }
   }
   .link-icon{
