@@ -461,11 +461,11 @@ clearcoat_update:
     - name: "Alfonso Grimaldo"
       link: "https://github.com/LiveTrower"
   media_author:
-    name: "Alfonso Grimaldo"
-    link: "https://github.com/LiveTrower"
+    name: "MinghauLoh (3D Model)"
+    link: "https://sketchfab.com/minghau"
   compare:
-    before_image: clearcoat_update_before.webp
-    after_image: clearcoat_update_after.webp
+    before_image: clearcoat_before.webp
+    after_image: clearcoat_after.webp
     before_text: Before
     after_text: After
 # android_native_file_picker:
@@ -711,8 +711,8 @@ follow_selection:
     - name: "Hugo Locurcio"
       link: "https://github.com/Calinou"
   media_author:
-    name: "Hugo Locurcio"
-    link: "https://github.com/Calinou"
+    name: "Charles Boury"
+    link: "https://bsky.app/profile/charlesboury.fr"
   media: follow_selection.webm
   poster: follow_selection_poster.webp
 view_3d_controller:
