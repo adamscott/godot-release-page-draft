@@ -204,9 +204,12 @@ draft: true
             <div class="sub-grid">
                 {% include_relative _components/card.html name="display_enum_remote_tree" %}
                 
-                {% include_relative _components/card.html name="navigate_to_script" %}
-    
+                {% include_relative _components/card.html name="navigate_to_script" order="reverse" %}
+            </div>
+            <div class="sub-grid">
                 {% include_relative _components/card.html name="view_3d_controller" %}
+
+                {% include_relative _components/card.html name="3d_transform_gizmo_trackball" order="reverse" %}
             </div>
 
         </section>
