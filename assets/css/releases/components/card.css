@@ -34,22 +34,13 @@
     }
     a{
       color: var(--body-text-color);
-      text-decoration: underline;
       font-weight: 600;
-
-      &:hover {
-        text-decoration: none;
-        border-color: var(--body-text-color);
-        border-bottom: solid;
-
-        &:has(> code) {
-          border-color: var(--color-godot-but-a-little-brighter);
-        }
-      }
 
       &:has(> code) {
         text-decoration-color: var(--color-godot-but-a-little-brighter);
       }
+
+
     }
     ul{
       padding-left: 1.4em;
@@ -82,6 +73,9 @@
     a{
       color: light-dark(var(--accent-color), var(--color-godot-but-darker));
       text-underline-offset: 0.2em;
+      &:hover {
+        text-underline-offset: 0.3em;
+      }
       &:not(:last-child):after{
         margin-right: 0.2em;
         content: ", ";
