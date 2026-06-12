@@ -676,7 +676,7 @@ navigate_to_script:
     name: "Jin Yang"
     link: "https://github.com/jinyangcruise"
   media: navigate_to_script.webm
-  poster: navigate_to_script.webp
+  poster: navigate_to_script_poster.webp
 conic_gradient:
   title: "`GradientTexture2D` now able to generate conic gradients"
   subtitle: "POV: You just drew the Wheel of Fortune card"
