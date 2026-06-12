@@ -856,3 +856,20 @@ composition_layer_improvements:
       link: "https://github.com/m4gr3d"
     - name: "eritschlSC"
       link: "https://github.com/eritschlSC"
+3d_transform_gizmo_trackball:
+  title: "Rotate 3D nodes intuitively with trackball-style rotation"
+  subtitle: "Look at that. Not bad at all. A big trackball indeed. ✨&#x2060;🌌&#x2060;🟪&#x2060;🤴&#x2060;🟪&#x2060;🌌&#x2060;✨"
+  text: |
+    We've added a new way to rotate 3D nodes.
+
+    First of all, be sure to activate **Use Trackball** (the new planet looking icon, or just press <kbd><kbd>U</kbd></kbd>) in the 3D editor toolbar. When the transform or rotation gizmo is active, you'll see that a translucent sphere will appear when hovering your mouse cursor inside the gizmo. If you click on that sphere and drag, you'll rotate the model as if you were using a genuine trackball. 
+
+    The 3D transform gizmo now more closely behaves like the one used in Blender.
+  read_more: "https://github.com/godotengine/godot/pull/109976"
+  contributors:
+    - name: "Charles Boury"
+      link: "https://github.com/CharlesBoury"
+  media_author:
+    name: "Charles Boury"
+    link: "https://bsky.app/profile/charlesboury.fr"
+  media: "3d_transform_gizmo_trackball.webm"
