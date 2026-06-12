@@ -35,7 +35,7 @@
         display: block;
         width: 1.0em;
         height: 1.0em;
-        stroke: light-dark(var(--light-text-color), var(--dark-text-color));
+        stroke: var(--body-text-color);
       }
     }
     input[type="checkbox"]{
@@ -52,7 +52,7 @@
   
 
   a{
-    color: light-dark(var(--light-text-color), var(--dark-text-color));
+    color: var(--body-text-color);
     text-decoration: none;
     opacity: 60%;
     position: relative;

@@ -6,6 +6,7 @@
 @import "./components/media_block.css";
 @import "./components/gdquest.css";
 @import "./components/donation_card.css";
+@import "./components/migration_card.css";
 
 /* TODO: Improve color names */
 
@@ -70,11 +71,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a{
-  color: light-dark(var(--light-text-color), var(--dark-text-color));
+a {
   text-decoration: underline;
   text-underline-offset: 0.2em;
   text-decoration-thickness: 0.1em;
+  color: var(--body-text-color);
   &:hover {
     text-underline-offset: 0.3em;
   }
@@ -147,7 +148,7 @@ a{
 
 .preamble{
   margin-top: 4em;
-  margin-bottom: 6em;
+  margin-bottom: 4em;
   padding: 0 2em;
   display: flex;
   flex-direction: column;
@@ -215,7 +216,7 @@ a{
       text-decoration: none;
       font-weight: 400;
       opacity: 80%;
-      color: light-dark(var(--light-text-color), var(--dark-text-color));
+      color: var(--body-text-color);
       &:hover{
         opacity: 100%;
       }
